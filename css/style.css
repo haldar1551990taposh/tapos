@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+    padding: 75px 0px;
+}
+p{
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 300px;
+}
+.heading{
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 1.4px;
+}
+.underline{
+    border-top: 5px solid rgba(0, 0, 0, 0.534);
+    width: 5%;
+    margin: 10px auto;
+}
+.writing-part{
+    margin-bottom: 35px;
+}
+.box{
+    padding: 25px;
+}
+.sub-heading{
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 10px 0px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+header{
+    background-color: #87509c;
+    color: white;
+    text-align: center;
+}
+.logo-part{
+    text-align: left;
+}
+nav{
+    text-align: center;
+
+}
+.menu-part{
+    text-align: end;
+}
+.menu-part ul{
+    padding: 5px 0px;
+
+}
+.menu-part li{
+    display: inline-block;
+    padding: 7px 10px;
+    transition: ease-in 0.5s;
+}
+.menu-part ul li:hover{
+    background-color: #3c4761;
+    border-radius: 5px;
+}
+
+
+.menu-part li a{
+    font-size: 18px;
+    color: white;
+    font-weight: 600px;
+}
+.hero-part{
+    padding: 100px 150px;
+}
+.hero-part h1{
+    font-size: 41px;
+    line-height: 40px;
+}
+.hero-part button{
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 10px;
+    width: 200px;
+    background-color: #eb7d4b;
+    color: #fff;
+}
+#service{
+    background-color: #17c2a4;
+    color: white;
+    text-align: center;
+}
+#service .box image{
+    height: 150px;
+}
+#team{
+    background-color: #e7f1f8;
+    color: #3c4761;
+    text-align: center;
+}
+.team-icon{
+    margin-top: 30px;
+}
+.team-iconi{
+    background-color: #bdd1df;
+    color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+    width: 40px;
+}
+.des{
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    color: rgb(47, 95, 255);
+}
